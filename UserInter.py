@@ -42,7 +42,7 @@ spinlenght = Spinbox(User, from_=8, to_=16, textvariable=val, width=13).pack()
 
 
 def call_back():
-    lsum.config(text=passgen())
+    lsum.config(text=pwdgen())
 
 
                     #  button #
